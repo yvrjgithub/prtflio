@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;1,200&family=Kanit&family=M+PLUS+Rounded+1c:wght@200;500&family=Mulish:ital@0;1&family=Rubik&display=swap');
+
+body{
+   background-color: black;
+}
+.text{
+   text-decoration: none;
+   color: white;
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   font-family: 'Mulish', sans-serif;
+   font-family: 'Rubik', sans-serif;
+   font-size: 25px;
+   font-weight: bold;
+}
+.in{
+   font-size: 40px;
+   padding: 20px;
+   padding-left: 5vw;
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+}
+.left{
+   display: flex;
+   justify-content: center;
+}
+.icons{
+   height: 50px;
+}
+.icons :hover{
+ background-color: aliceblue;
+}
+.c{
+   padding: 20px;
+}
+.r{
+   padding-top: 27px;
+}
+.gh{
+   padding-right: 5vw;
+}
+.main{
+   font-size: 55px;
+   display: flex;
+   justify-content: space-between;
+}
+.mtext{
+   padding-left: 5vw;
+}
+.img{
+   padding: 5vw;
+   padding-right: 7vw;
+}
+.cc{
+   animation: color-change 4s infinite;
+}
+@keyframes color-change {
+   0% { color: red; }
+   10% { color: rgb(255, 242, 0); }
+   20% { color: rgb(38, 255, 0); }
+   30% { color: rgb(0, 191, 255); }
+   40% { color: rgb(0, 255, 229); }
+   60% { color: rgb(0, 140, 255); } 
+   70% { color: rgb(179, 0, 255); }
+   80% { color: rgb(255, 0, 183); }
+   90% { color: rgb(221, 0, 255); }
+   100% { color: red; }
+}
+.cp{
+ font-weight: lighter;
+ font-size: 20px;
+ padding: 5vw;
+ padding-top: 1vw;
+ padding-bottom: 1vw;
+}
+.pro{
+   font-weight: 100;
+   padding-left: 45vw;
+}
+.project{
+   justify-content: center;
+   padding-bottom: 0vw;
+   padding-bottom: -50px;
+}
+.ang{
+ padding-left: 2.5vw;
+}
+.c :hover{
+   background-color: aqua;
+}
+.r{
+   text-decoration: none;
+   color: white;
+}
+@media only screen and (max-width: 600px){
+   .main{
+      font-size: 25px;
+      display: block;
+   }
+   .mtext{
+      padding-left: 10vw;
+      padding-bottom: 0vw;
+   }
+   .imgh{
+      padding-left: 30vw;
+      width: 150px;
+   }
+   .cp{
+      padding-left: 10vw;
+   }
+   .ang{
+      padding-left: 7vw;
+   }
+}
